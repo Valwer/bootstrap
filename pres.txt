@@ -1,0 +1,27 @@
+Intro :
+
+- C'est un framework (cadrede travail) CSS
+	-Pour gagner du temps 
+	-est composé de bibliotheque
+	-facilite la maintenance d'une application
+-Possède un systeme de grid intuitif et simple a prendre en main, des templates visuels
+-Integre une bibliotheque de classes completes
+-parfaitement responsive
+- Container, row, col
+
+determinants de col :
+ col- (nombre de colones a occuper) = mobiles portrait
+col-sm- = mobile payasage
+col-md- = tablette portrait
+col-lg- = tablette paysage
+col-xl- = ordi portable ou bureau
+col-xxl- = grand ecran full HD
+
+Conclusion :
+
+Bootstrap est un framework CSS, très populaire, utilise un systeme de grid intuitif
+La grille, utilisée en complément avec les determinants des cols
+BS met a disposition de nombreux composants
+il embarque aussi bcp de classes utiles
+
+
