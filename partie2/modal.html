@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Caroussel</title>
+</head>
+
+<body class="bg-secondary">
+    <!-- NAVBAR -->
+    <!-- ------------------------------------------------ -->
+    <nav class="navbar text-center navbar-expand-lg green">
+        <div class="container-fluid">
+            <!-- Bouton d'accueil -->
+            <a class="navbar-brand" href="/partie2/index.html"><i class="bi bi-house"> Acceuil</i></a>
+            <!-- Bouton de bascule pour le menu mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Contenu du menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/partie2/cards.html">Les cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/partie2/caroussel.html">Le caroussel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/partie2/offcanvas.html">Offcanvas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="raw">
+            <div class="col-3">
+                <!-- boutton de lancement de la modal -->
+                <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#connect">
+                    Connexion
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="connect" tabindex="-1" aria-labelledby="connectLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content green">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="connectLabel">Connexion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form2Example1" class="form-control" placeholder="exemple@gmail.com" />
+                                    <label class="form-label" for="form2Example1">Adresse email</label>
+                                </div>
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <input type="password" id="form2Example2" class="form-control" placeholder="**********" />
+                                    <label class="form-label" for="form2Example2">Mot de passe</label>
+                                </div>
+                                <!-- 2 column grid layout for inline styling -->
+                                <div class="row mb-4">
+                                    <div class="col d-flex justify-content-center">
+                                        <!-- Checkbox -->
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                        <label class="form-check-label" for="form2Example31"> Se souvenir de moi ? </label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <!-- Simple link -->
+                                        <a href="#!">Mot de passe oublié ?</a>
+                                    </div>
+                                </div>
+                                <!-- Submit button -->
+                                <button type="button" class="btn btn-primary btn-block mb-4">Connexion</button>
+                                <!-- Register buttons -->
+                                <div class="text-center">
+                                <p>Pas encore membre ? <a href="#!">S'inscrire</a></p>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
